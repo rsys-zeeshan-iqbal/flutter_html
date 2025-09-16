@@ -13,6 +13,7 @@ dependencies:
     sdk: flutter
   html: 
   flutter_html: 
+    path: ../../
   flutter_layout_grid: 
 
 dev_dependencies:

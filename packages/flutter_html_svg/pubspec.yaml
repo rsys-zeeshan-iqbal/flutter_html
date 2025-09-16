@@ -11,7 +11,8 @@ dependencies:
   flutter:
     sdk: flutter
   html: 
-  flutter_html:
+  flutter_html: 
+    path: ../../
   flutter_svg:
 
 dev_dependencies:
