@@ -4,8 +4,8 @@ version: 3.0.0
 homepage: https://github.com/Sub6Resources/flutter_html
 
 environment:
-  sdk: ">=3.0.0 <=3.5.4"
-  flutter: 3.24.5
+  sdk: ">=3.0.0 <=4.0.0"
+  flutter: 3.27.0
 
 dependencies:
   # Plugin for parsing html
@@ -15,7 +15,7 @@ dependencies:
   csslib:
 
   # Plugin for firstWhereOrNull extension on lists
-  collection: 1.18.0
+  collection: 1.19.0
 
   # plugin to manage lists and counting in a variety of styles
   list_counter:

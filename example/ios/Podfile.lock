@@ -1,34 +1,42 @@
 PODS:
   - Flutter (1.0.0)
-  - video_player (0.0.1):
+  - package_info_plus (0.4.5):
     - Flutter
-  - wakelock (0.0.1):
+  - video_player_avfoundation (0.0.1):
     - Flutter
-  - webview_flutter (0.0.1):
+    - FlutterMacOS
+  - wakelock_plus (0.0.1):
     - Flutter
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+    - FlutterMacOS
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
-  - video_player (from `.symlinks/plugins/video_player/ios`)
-  - wakelock (from `.symlinks/plugins/wakelock/ios`)
-  - webview_flutter (from `.symlinks/plugins/webview_flutter/ios`)
+  - package_info_plus (from `.symlinks/plugins/package_info_plus/ios`)
+  - video_player_avfoundation (from `.symlinks/plugins/video_player_avfoundation/darwin`)
+  - wakelock_plus (from `.symlinks/plugins/wakelock_plus/ios`)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/darwin`)
 
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
-  video_player:
-    :path: ".symlinks/plugins/video_player/ios"
-  wakelock:
-    :path: ".symlinks/plugins/wakelock/ios"
-  webview_flutter:
-    :path: ".symlinks/plugins/webview_flutter/ios"
+  package_info_plus:
+    :path: ".symlinks/plugins/package_info_plus/ios"
+  video_player_avfoundation:
+    :path: ".symlinks/plugins/video_player_avfoundation/darwin"
+  wakelock_plus:
+    :path: ".symlinks/plugins/wakelock_plus/ios"
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/darwin"
 
 SPEC CHECKSUMS:
-  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
-  video_player: 9cc823b1d9da7e8427ee591e8438bfbcde500e6e
-  wakelock: d0fc7c864128eac40eba1617cb5264d9c940b46f
-  webview_flutter: 9f491a9b5a66f2573946a389b2677987b0ff8c0b
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  package_info_plus: c0502532a26c7662a62a356cebe2692ec5fe4ec4
+  video_player_avfoundation: 7c6c11d8470e1675df7397027218274b6d2360b3
+  wakelock_plus: 76957ab028e12bfa4e66813c99e46637f367fc7e
+  webview_flutter_wkwebview: a4af96a051138e28e29f60101d094683b9f82188
 
-PODFILE CHECKSUM: 8e679eca47255a8ca8067c4c67aab20e64cb974d
+PODFILE CHECKSUM: 1a782344d33c12ced0182eeab11e8668d253eb48
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.16.2
